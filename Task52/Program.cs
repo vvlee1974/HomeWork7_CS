@@ -58,8 +58,6 @@ void PrintArray(int[,] array)
 
 void GetSum(int[,] array, int rows, int columns)
 {
-    int[,] arr = new int[columns, rows];
-
     for (int i = 0; i < columns; i++)
     {
         double temp = 0;
